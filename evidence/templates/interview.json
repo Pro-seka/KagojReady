@@ -1,0 +1,5 @@
+{ "id": "IN-00", "date": "2026-01-01", "interviewer": "REPLACE ME", "role": "digital_centre_operator", "consent_recorded": true,
+  "rejection_reasons": ["REPLACE ME: the reasons people are sent back, one per line"],
+  "knows_rules_beforehand": "rarely", "would_use_before_trip": true, "would_pay": "maybe", "price_hint": "REPLACE ME or delete this line",
+  "rules_learned": [{ "service": "passport renewal", "statement": "REPLACE ME: a rule the operator told you", "basis": "seen_often" }],
+  "original_notes_ref": "REPLACE ME: where the original notes are kept", "notes": "" }

@@ -1,0 +1,5 @@
+{ "date": "2026-01-01", "tester": "REPLACE ME", "build": "REPLACE ME: build name", "device_model": "REPLACE ME", "android_version": "13", "browser": "Chrome",
+  "network": "4g_slow", "check_time_seconds": 20,
+  "steps": { "consent_shown": true, "camera_capture_works": true, "upload_both_documents": true, "verdict_shown": true, "bangla_renders_correctly": true,
+             "english_toggle_works": true, "delete_works": true, "no_sideways_scrolling": true, "readable_in_daylight": true },
+  "notes": "" }

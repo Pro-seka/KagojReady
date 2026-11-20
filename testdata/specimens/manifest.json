@@ -1,0 +1,1651 @@
+[
+ {
+  "id": "clean_english__clean",
+  "case": "clean_english",
+  "profile": "clean",
+  "images": {
+   "nid": "clean_english__clean/nid.jpg",
+   "old_passport": "clean_english__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "date_formats_differ_bangla_digits__clean",
+  "case": "date_formats_differ_bangla_digits",
+  "profile": "clean",
+  "images": {
+   "nid": "date_formats_differ_bangla_digits__clean/nid.jpg",
+   "old_passport": "date_formats_differ_bangla_digits__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "১২/০৩/১৯৯০",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 March 1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "name_case_and_punctuation_only__clean",
+  "case": "name_case_and_punctuation_only",
+  "profile": "clean",
+  "images": {
+   "nid": "name_case_and_punctuation_only__clean/nid.jpg",
+   "old_passport": "name_case_and_punctuation_only__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Md. Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "MD ABDUR RAHIM",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "single_name_equal__clean",
+  "case": "single_name_equal",
+  "profile": "clean",
+  "images": {
+   "nid": "single_name_equal__clean/nid.jpg",
+   "old_passport": "single_name_equal__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Mohammad",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Mohammad",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "cross_script_name_matches__clean",
+  "case": "cross_script_name_matches",
+  "profile": "clean",
+  "images": {
+   "nid": "cross_script_name_matches__clean/nid.jpg",
+   "old_passport": "cross_script_name_matches__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "আব্দুর রহিম",
+     "romanized": "Abdur Rahim"
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "nid_number_spaces_bangla_digits__clean",
+  "case": "nid_number_spaces_bangla_digits",
+  "profile": "clean",
+  "images": {
+   "nid": "nid_number_spaces_bangla_digits__clean/nid.jpg",
+   "old_passport": "nid_number_spaces_bangla_digits__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "১২৩৪ ৫৬৭৮ ৯০",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "dob_year_mismatch__clean",
+  "case": "dob_year_mismatch",
+  "profile": "clean",
+  "images": {
+   "nid": "dob_year_mismatch__clean/nid.jpg",
+   "old_passport": "dob_year_mismatch__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1991",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-010": "FAIL"
+  },
+  "verdict": "NOT_READY"
+ },
+ {
+  "id": "dob_day_month_swapped__clean",
+  "case": "dob_day_month_swapped",
+  "profile": "clean",
+  "images": {
+   "nid": "dob_day_month_swapped__clean/nid.jpg",
+   "old_passport": "dob_day_month_swapped__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "03/12/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-010": "FAIL"
+  },
+  "verdict": "NOT_READY"
+ },
+ {
+  "id": "name_honorific_missing__clean",
+  "case": "name_honorific_missing",
+  "profile": "clean",
+  "images": {
+   "nid": "name_honorific_missing__clean/nid.jpg",
+   "old_passport": "name_honorific_missing__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Md. Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-011": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "name_spelling_close__clean",
+  "case": "name_spelling_close",
+  "profile": "clean",
+  "images": {
+   "nid": "name_spelling_close__clean/nid.jpg",
+   "old_passport": "name_spelling_close__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rohim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-011": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "name_word_order_swapped__clean",
+  "case": "name_word_order_swapped",
+  "profile": "clean",
+  "images": {
+   "nid": "name_word_order_swapped__clean/nid.jpg",
+   "old_passport": "name_word_order_swapped__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Rahim Abdur",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-011": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "name_completely_different__clean",
+  "case": "name_completely_different",
+  "profile": "clean",
+  "images": {
+   "nid": "name_completely_different__clean/nid.jpg",
+   "old_passport": "name_completely_different__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-011": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "missing_old_passport__clean",
+  "case": "missing_old_passport",
+  "profile": "clean",
+  "images": {
+   "nid": "missing_old_passport__clean/nid.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": null
+  },
+  "expect": {
+   "RN-001": "FAIL",
+   "RN-010": "UNSURE",
+   "RN-011": "UNSURE",
+   "RN-012": "UNSURE"
+  },
+  "verdict": "NOT_READY"
+ },
+ {
+  "id": "missing_nid__clean",
+  "case": "missing_nid",
+  "profile": "clean",
+  "images": {
+   "old_passport": "missing_nid__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": null,
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-002": "FAIL",
+   "RN-010": "UNSURE",
+   "RN-011": "UNSURE",
+   "RN-020": "UNSURE",
+   "RN-030": "UNSURE"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "passport_number_absent__clean",
+  "case": "passport_number_absent",
+  "profile": "clean",
+  "images": {
+   "nid": "passport_number_absent__clean/nid.jpg",
+   "old_passport": "passport_number_absent__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": null,
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-012": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "nid_number_too_short__clean",
+  "case": "nid_number_too_short",
+  "profile": "clean",
+  "images": {
+   "nid": "nid_number_too_short__clean/nid.jpg",
+   "old_passport": "nid_number_too_short__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "12345",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-020": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "applicant_under_18__clean",
+  "case": "applicant_under_18",
+  "profile": "clean",
+  "images": {
+   "nid": "applicant_under_18__clean/nid.jpg",
+   "old_passport": "applicant_under_18__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "05/06/2010",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "05/06/2010",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-030": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "dob_unparseable_both__clean",
+  "case": "dob_unparseable_both",
+  "profile": "clean",
+  "images": {
+   "nid": "dob_unparseable_both__clean/nid.jpg",
+   "old_passport": "dob_unparseable_both__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "??/03/1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "??/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-010": "UNSURE",
+   "RN-030": "UNSURE"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "dob_impossible_date_both__clean",
+  "case": "dob_impossible_date_both",
+  "profile": "clean",
+  "images": {
+   "nid": "dob_impossible_date_both__clean/nid.jpg",
+   "old_passport": "dob_impossible_date_both__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "31/02/1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "31/02/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-010": "UNSURE",
+   "RN-030": "UNSURE"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "two_problems_blocker_wins__clean",
+  "case": "two_problems_blocker_wins",
+  "profile": "clean",
+  "images": {
+   "nid": "two_problems_blocker_wins__clean/nid.jpg",
+   "old_passport": "two_problems_blocker_wins__clean/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rohim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1991",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-010": "FAIL",
+   "RN-011": "FAIL"
+  },
+  "verdict": "NOT_READY"
+ },
+ {
+  "id": "clean_english__blur",
+  "case": "clean_english",
+  "profile": "blur",
+  "images": {
+   "nid": "clean_english__blur/nid.jpg",
+   "old_passport": "clean_english__blur/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "clean_english__heavy_blur",
+  "case": "clean_english",
+  "profile": "heavy_blur",
+  "images": {
+   "nid": "clean_english__heavy_blur/nid.jpg",
+   "old_passport": "clean_english__heavy_blur/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "clean_english__lowlight",
+  "case": "clean_english",
+  "profile": "lowlight",
+  "images": {
+   "nid": "clean_english__lowlight/nid.jpg",
+   "old_passport": "clean_english__lowlight/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "clean_english__glare",
+  "case": "clean_english",
+  "profile": "glare",
+  "images": {
+   "nid": "clean_english__glare/nid.jpg",
+   "old_passport": "clean_english__glare/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "clean_english__tilt",
+  "case": "clean_english",
+  "profile": "tilt",
+  "images": {
+   "nid": "clean_english__tilt/nid.jpg",
+   "old_passport": "clean_english__tilt/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "clean_english__cropped",
+  "case": "clean_english",
+  "profile": "cropped",
+  "images": {
+   "nid": "clean_english__cropped/nid.jpg",
+   "old_passport": "clean_english__cropped/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "clean_english__jpeg_low",
+  "case": "clean_english",
+  "profile": "jpeg_low",
+  "images": {
+   "nid": "clean_english__jpeg_low/nid.jpg",
+   "old_passport": "clean_english__jpeg_low/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {},
+  "verdict": "READY"
+ },
+ {
+  "id": "dob_year_mismatch__blur",
+  "case": "dob_year_mismatch",
+  "profile": "blur",
+  "images": {
+   "nid": "dob_year_mismatch__blur/nid.jpg",
+   "old_passport": "dob_year_mismatch__blur/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1991",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-010": "FAIL"
+  },
+  "verdict": "NOT_READY"
+ },
+ {
+  "id": "dob_year_mismatch__tilt",
+  "case": "dob_year_mismatch",
+  "profile": "tilt",
+  "images": {
+   "nid": "dob_year_mismatch__tilt/nid.jpg",
+   "old_passport": "dob_year_mismatch__tilt/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1991",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-010": "FAIL"
+  },
+  "verdict": "NOT_READY"
+ },
+ {
+  "id": "name_honorific_missing__glare",
+  "case": "name_honorific_missing",
+  "profile": "glare",
+  "images": {
+   "nid": "name_honorific_missing__glare/nid.jpg",
+   "old_passport": "name_honorific_missing__glare/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Md. Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-011": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ },
+ {
+  "id": "name_honorific_missing__lowlight",
+  "case": "name_honorific_missing",
+  "profile": "lowlight",
+  "images": {
+   "nid": "name_honorific_missing__lowlight/nid.jpg",
+   "old_passport": "name_honorific_missing__lowlight/old_passport.jpg"
+  },
+  "truth": {
+   "nid": {
+    "name": {
+     "value": "Md. Abdur Rahim",
+     "romanized": null
+    },
+    "father_name": {
+     "value": "Karim Uddin",
+     "romanized": null
+    },
+    "mother_name": {
+     "value": "Rahima Begum",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12 Mar 1990",
+     "romanized": null
+    },
+    "nid_number": {
+     "value": "1234567890",
+     "romanized": null
+    }
+   },
+   "old_passport": {
+    "name": {
+     "value": "Abdur Rahim",
+     "romanized": null
+    },
+    "dob": {
+     "value": "12/03/1990",
+     "romanized": null
+    },
+    "passport_number": {
+     "value": "A12345678",
+     "romanized": null
+    },
+    "expiry_date": {
+     "value": "01/01/2027",
+     "romanized": null
+    }
+   }
+  },
+  "expect": {
+   "RN-011": "FAIL"
+  },
+  "verdict": "ALMOST_READY"
+ }
+]

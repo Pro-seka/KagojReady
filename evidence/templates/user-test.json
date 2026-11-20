@@ -1,0 +1,6 @@
+{ "id": "UT-00", "date": "2026-01-01", "facilitator": "REPLACE ME", "build": "REPLACE ME: build name, for example kagojready-m4", "consent_recorded": true,
+  "participant": { "age_band": "25-34", "device": "android", "literacy_self": "medium", "language_used": "bn", "is_nrb": false },
+  "used_own_documents": false, "documents_deleted_after": true,
+  "result": { "verdict_shown": "NOT_READY", "verdict_correct_per_facilitator": true, "completed_without_help": true, "minutes": 4,
+              "understood_verdict": true, "understood_fix_steps": true, "would_use": true },
+  "issues": [], "original_notes_ref": "REPLACE ME: where the observation notes are kept" }
