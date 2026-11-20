@@ -1,0 +1,208 @@
+{
+  "pack_id": "bd-passport-adult-renewal",
+  "version": "0.1.0",
+  "country": "BD",
+  "status": "DRAFT_UNVERIFIED",
+  "display_order": 1,
+  "service": {
+    "id": "passport_adult_renewal",
+    "name_en": "Passport renewal (adult)",
+    "name_bn": "পাসপোর্ট নবায়ন (প্রাপ্তবয়স্ক)"
+  },
+  "last_verified": null,
+  "review_by": null,
+  "sources": [
+    {
+      "label": "Bangladesh High Commission London: e-passport application (mission page, UK applicants)",
+      "url": "https://bhclondon.org.uk/e-passport-application",
+      "retrieved": "2026-10-20"
+    },
+    {
+      "label": "Bangladesh Mission Birmingham (mofa.gov.bd): E-Passport (mission page, UK applicants)",
+      "url": "https://birmingham.mofa.gov.bd/pages/static-pages/695266aa35ce18e1c05aaa75",
+      "retrieved": "2026-10-20"
+    },
+    {
+      "label": "Bangladesh Mission Chennai (mofa.gov.bd): General instructions for e-passport (mission page, applicants in India)",
+      "url": "https://chennai.mofa.gov.bd/pages/static-pages/695266b135ce18e1c05aacfc",
+      "retrieved": "2026-10-20"
+    }
+  ],
+  "applicant_types": [
+    "adult"
+  ],
+  "documents": [
+    {
+      "id": "old_passport",
+      "name_en": "Existing passport",
+      "name_bn": "বর্তমান পাসপোর্ট",
+      "fields": [
+        "name",
+        "dob",
+        "passport_number",
+        "expiry_date"
+      ],
+      "photo_tip_en": "Photograph the data page flat, with no glare.",
+      "photo_tip_bn": "তথ্য পাতার ছবি সমতলে তুলুন, আলোর ঝলক এড়িয়ে চলুন।"
+    },
+    {
+      "id": "nid",
+      "name_en": "National ID card",
+      "name_bn": "জাতীয় পরিচয়পত্র",
+      "fields": [
+        "name",
+        "father_name",
+        "mother_name",
+        "dob",
+        "nid_number"
+      ],
+      "photo_tip_en": "Photograph both sides, flat, with no glare.",
+      "photo_tip_bn": "দুই পাশের ছবি তুলুন, কার্ড সমতলে রাখুন, আলোর ঝলক এড়িয়ে চলুন।"
+    }
+  ],
+  "rules": [
+    {
+      "id": "RN-001",
+      "type": "required_document",
+      "severity": "blocker",
+      "rule_status": "official",
+      "doc": "old_passport",
+      "message_en": "Your existing passport was not found.",
+      "message_bn": "আপনার বর্তমান পাসপোর্ট পাওয়া যায়নি।",
+      "fix_en": [
+        "Upload a clear photo of the data page of your existing passport."
+      ],
+      "fix_bn": [
+        "আপনার বর্তমান পাসপোর্টের তথ্য পাতার স্পষ্ট ছবি আপলোড করুন।"
+      ],
+      "source_ref": 1,
+      "notes": "Mission pages (London, Birmingham) list the existing Bangladesh passport for renewal. Written for applicants abroad. A verifier must confirm the domestic requirement."
+    },
+    {
+      "id": "RN-002",
+      "type": "required_document",
+      "severity": "warning",
+      "rule_status": "official",
+      "doc": "nid",
+      "message_en": "National ID card not found. If you have no NID, a birth registration certificate may be used instead, but this check does not look at it yet.",
+      "message_bn": "জাতীয় পরিচয়পত্র পাওয়া যায়নি। আপনার এনআইডি না থাকলে জন্মনিবন্ধন সনদ ব্যবহার করা যেতে পারে, তবে এই যাচাই এখনো সেটি দেখে না।",
+      "fix_en": [
+        "Upload a clear photo of both sides of your NID card.",
+        "No NID? Ask the office whether your birth registration certificate can be used."
+      ],
+      "fix_bn": [
+        "আপনার এনআইডি কার্ডের দুই পাশের স্পষ্ট ছবি আপলোড করুন।",
+        "এনআইডি না থাকলে জন্মনিবন্ধন সনদ ব্যবহার করা যাবে কি না তা অফিসে জেনে নিন।"
+      ],
+      "notes": "Mission pages: NID or 17-digit online birth registration certificate, and the certificate only if no NID was issued (Birmingham). Either-or documents are not modelled yet, so this stays a warning.",
+      "source_ref": 1
+    },
+    {
+      "id": "RN-010",
+      "type": "field_match",
+      "severity": "blocker",
+      "rule_status": "official",
+      "field": "dob",
+      "docs": [
+        "nid",
+        "old_passport"
+      ],
+      "pass_levels": [
+        "exact"
+      ],
+      "message_en": "Date of birth is different on your NID and your existing passport.",
+      "message_bn": "এনআইডি ও বর্তমান পাসপোর্টে জন্ম তারিখ আলাদা।",
+      "fix_en": [
+        "Find out which document has the error and correct it before you apply.",
+        "Corrections can take a long time, so start as early as you can."
+      ],
+      "fix_bn": [
+        "কোন নথিতে ভুল আছে তা খুঁজে বের করে আবেদনের আগে সংশোধন করুন।",
+        "সংশোধনে অনেক সময় লাগতে পারে, তাই যত তাড়াতাড়ি সম্ভব শুরু করুন।"
+      ],
+      "fix_service": "bd-nid-correction",
+      "source_ref": 1,
+      "notes": "Birmingham mission page: data in the previous passport, NID/online birth certificate and the future e-passport should be the same. London mission page: an application may fail on a mismatch. Written for applicants abroad; a verifier must confirm domestic practice."
+    },
+    {
+      "id": "RN-011",
+      "type": "field_match",
+      "severity": "warning",
+      "rule_status": "unconfirmed",
+      "field": "name",
+      "docs": [
+        "nid",
+        "old_passport"
+      ],
+      "pass_levels": [
+        "exact"
+      ],
+      "message_en": "Your name is written differently on your NID and your existing passport. It may not be accepted.",
+      "message_bn": "এনআইডি ও বর্তমান পাসপোর্টে আপনার নাম আলাদাভাবে লেখা আছে। এটি গ্রহণ নাও করা হতে পারে।",
+      "fix_en": [
+        "Confirm with the passport office before you travel, or correct the document so both match."
+      ],
+      "fix_bn": [
+        "যাওয়ার আগে পাসপোর্ট অফিসে নিশ্চিত হয়ে নিন, অথবা দুটি নথি মিলিয়ে সংশোধন করুন।"
+      ],
+      "notes": "Exact-only on purpose. Mission pages say all information must match, but not what counts as a match (honorifics such as Md., spelling). Add 'equivalent' only after operators or the office confirm.",
+      "source_ref": 1
+    },
+    {
+      "id": "RN-012",
+      "type": "field_present",
+      "severity": "warning",
+      "rule_status": "unconfirmed",
+      "doc": "old_passport",
+      "field": "passport_number",
+      "message_en": "The passport number could not be read.",
+      "message_bn": "পাসপোর্ট নম্বর পড়া যায়নি।",
+      "fix_en": [
+        "Retake the photo so the passport number is clearly visible."
+      ],
+      "fix_bn": [
+        "পাসপোর্ট নম্বর স্পষ্ট দেখা যায় এমন ছবি আবার তুলুন।"
+      ]
+    },
+    {
+      "id": "RN-020",
+      "type": "format_check",
+      "severity": "warning",
+      "rule_status": "unconfirmed",
+      "doc": "nid",
+      "field": "nid_number",
+      "pattern": "^([0-9]{10}|[0-9]{13}|[0-9]{17})$",
+      "message_en": "The NID number does not look complete.",
+      "message_bn": "এনআইডি নম্বর সম্পূর্ণ মনে হচ্ছে না।",
+      "fix_en": [
+        "Retake the photo so every digit is visible."
+      ],
+      "fix_bn": [
+        "সব সংখ্যা দেখা যায় এমন ছবি আবার তুলুন।"
+      ],
+      "notes": "TODO verify accepted NID number lengths."
+    },
+    {
+      "id": "RN-030",
+      "type": "date_check",
+      "severity": "warning",
+      "rule_status": "official",
+      "doc": "nid",
+      "field": "dob",
+      "check": "min_age",
+      "years": 18,
+      "message_en": "You may be under 18, which uses a different application path.",
+      "message_bn": "আপনার বয়স ১৮ বছরের কম হতে পারে, এ ক্ষেত্রে ভিন্ন আবেদন পদ্ধতি প্রযোজ্য।",
+      "fix_en": [
+        "Check the application path for applicants under 18."
+      ],
+      "fix_bn": [
+        "১৮ বছরের কম বয়সীদের জন্য আবেদন পদ্ধতি দেখে নিন।"
+      ],
+      "source_ref": 2,
+      "notes": "Chennai mission page: applicants below 18 follow different requirements (a parent's NID number is needed). Written for applicants abroad; a verifier must confirm the domestic age rules."
+    }
+  ],
+  "verified_by": null,
+  "evidence_url": null
+}

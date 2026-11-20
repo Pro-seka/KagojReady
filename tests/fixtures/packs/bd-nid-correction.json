@@ -1,0 +1,149 @@
+{
+  "pack_id": "bd-nid-correction",
+  "version": "0.1.0",
+  "country": "BD",
+  "status": "DRAFT_UNVERIFIED",
+  "display_order": 2,
+  "service": {
+    "id": "nid_correction",
+    "name_en": "NID correction (supporting documents check)",
+    "name_bn": "এনআইডি সংশোধন (সহায়ক কাগজ যাচাই)"
+  },
+  "last_verified": null,
+  "review_by": null,
+  "sources": [
+    {
+      "label": "The Business Standard: NID corrections (press report, not an official page)",
+      "url": "https://www.tbsnews.net/features/panorama/never-ending-nightmare-nid-corrections-bangladesh-1099006",
+      "retrieved": "2026-10-20"
+    },
+    {
+      "label": "Dhaka Tribune: NID correction categories (press report on the 2023 EC notification)",
+      "url": "https://www.dhakatribune.com/bangladesh/385651/nearly-350-000-nids-pending-correction",
+      "retrieved": "2026-10-20"
+    },
+    {
+      "label": "UNB: Smart NID correction, necessary documents (press report)",
+      "url": "https://unb.com.bd/news/tag/61715",
+      "retrieved": "2026-10-20"
+    }
+  ],
+  "applicant_types": [
+    "adult"
+  ],
+  "documents": [
+    {
+      "id": "nid",
+      "name_en": "National ID card",
+      "name_bn": "জাতীয় পরিচয়পত্র",
+      "fields": [
+        "name",
+        "father_name",
+        "mother_name",
+        "dob",
+        "nid_number"
+      ],
+      "photo_tip_en": "Photograph both sides, flat, with no glare.",
+      "photo_tip_bn": "দুই পাশের ছবি তুলুন, কার্ড সমতলে রাখুন, আলোর ঝলক এড়িয়ে চলুন।"
+    },
+    {
+      "id": "birth_cert",
+      "name_en": "Birth registration certificate",
+      "name_bn": "জন্মনিবন্ধন সনদ",
+      "fields": [
+        "name",
+        "father_name",
+        "mother_name",
+        "dob"
+      ],
+      "photo_tip_en": "Photograph the whole page, with no folds or cut-off edges.",
+      "photo_tip_bn": "পুরো পাতাটি এক ছবিতে তুলুন, ভাঁজ বা কাটা অংশ ছাড়া।"
+    }
+  ],
+  "rules": [
+    {
+      "id": "NC-001",
+      "type": "required_document",
+      "severity": "warning",
+      "rule_status": "unconfirmed",
+      "doc": "birth_cert",
+      "message_en": "Birth registration certificate not found.",
+      "message_bn": "জন্মনিবন্ধন সনদ পাওয়া যায়নি।",
+      "fix_en": [
+        "Upload a clear photo of your birth registration certificate."
+      ],
+      "fix_bn": [
+        "আপনার জন্মনিবন্ধন সনদের স্পষ্ট ছবি আপলোড করুন।"
+      ],
+      "source_ref": 2,
+      "notes": "Press reports list the birth registration certificate for name and date-of-birth corrections. An attested SSC certificate is reported as an alternative for date of birth; this pack does not model either-or documents yet. Needs official confirmation."
+    },
+    {
+      "id": "NC-002",
+      "type": "required_document",
+      "severity": "warning",
+      "rule_status": "unconfirmed",
+      "doc": "nid",
+      "message_en": "National ID card not found.",
+      "message_bn": "জাতীয় পরিচয়পত্র পাওয়া যায়নি।",
+      "fix_en": [
+        "Upload a clear photo of both sides of your NID card."
+      ],
+      "fix_bn": [
+        "আপনার এনআইডি কার্ডের দুই পাশের স্পষ্ট ছবি আপলোড করুন।"
+      ]
+    },
+    {
+      "id": "NC-010",
+      "type": "field_present",
+      "severity": "warning",
+      "rule_status": "unconfirmed",
+      "doc": "birth_cert",
+      "field": "dob",
+      "message_en": "The date of birth on the birth certificate could not be read.",
+      "message_bn": "জন্মনিবন্ধন সনদে জন্ম তারিখ পড়া যায়নি।",
+      "fix_en": [
+        "Retake the photo so the date of birth is clearly visible."
+      ],
+      "fix_bn": [
+        "জন্ম তারিখ স্পষ্ট দেখা যায় এমন ছবি আবার তুলুন।"
+      ]
+    },
+    {
+      "id": "NC-011",
+      "type": "field_present",
+      "severity": "warning",
+      "rule_status": "unconfirmed",
+      "doc": "birth_cert",
+      "field": "name",
+      "message_en": "The name on the birth certificate could not be read.",
+      "message_bn": "জন্মনিবন্ধন সনদে নাম পড়া যায়নি।",
+      "fix_en": [
+        "Retake the photo so the name is clearly visible."
+      ],
+      "fix_bn": [
+        "নাম স্পষ্ট দেখা যায় এমন ছবি আবার তুলুন।"
+      ]
+    },
+    {
+      "id": "NC-020",
+      "type": "format_check",
+      "severity": "warning",
+      "rule_status": "unconfirmed",
+      "doc": "nid",
+      "field": "nid_number",
+      "pattern": "^([0-9]{10}|[0-9]{13}|[0-9]{17})$",
+      "message_en": "The NID number does not look complete.",
+      "message_bn": "এনআইডি নম্বর সম্পূর্ণ মনে হচ্ছে না।",
+      "fix_en": [
+        "Retake the photo so every digit is visible."
+      ],
+      "fix_bn": [
+        "সব সংখ্যা দেখা যায় এমন ছবি আবার তুলুন।"
+      ],
+      "notes": "TODO verify accepted NID number lengths."
+    }
+  ],
+  "verified_by": null,
+  "evidence_url": null
+}
