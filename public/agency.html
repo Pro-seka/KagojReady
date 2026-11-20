@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Agency console · KagojReady</title>
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="mark" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M6 12l4 4 8-8"/></svg></span><span>KagojReady · Agency console</span></div>
+  <a href="/" class="btn ghost linkbtn">Assistant</a>
+</header>
+<main class="wrap" id="app" aria-label="Agency console">
+  <h1 class="title">Citizen problem reports</h1>
+  <p class="sm">Reports are sorted by a transparent priority score: category level, safety hazard, number of supporters and age. The score is a heuristic to help sort a long list, not a measure of need. Routing to offices is a draft until an authority confirms it.</p>
+  <form class="field" id="auth"><label class="sr" for="token">Agency token</label><input id="token" type="password" autocomplete="off" placeholder="Agency token"><button class="btn" type="submit">Open console</button></form>
+  <p id="msg" class="notice err" role="alert" hidden></p>
+  <div id="out"></div>
+</main>
+<script src="/agency.js"></script>
+</body>
+</html>

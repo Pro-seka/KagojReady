@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Service insights · KagojReady</title>
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="mark" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M6 12l4 4 8-8"/></svg></span><span>KagojReady · Insights</span></div>
+  <a href="/" class="btn ghost linkbtn">Assistant</a>
+</header>
+<main class="wrap" id="app" aria-label="Insights">
+  <h1 class="title">How citizens are using the service</h1>
+  <p class="sm">Counts only. No questions, photos, names or numbers are stored, and small groups are hidden so no one can be singled out.</p>
+  <form class="field" id="auth"><label class="sr" for="token">Access token</label><input id="token" type="password" autocomplete="off" placeholder="Access token"><button class="btn" type="submit">Show insights</button></form>
+  <p id="msg" class="notice err" role="alert" hidden></p>
+  <div id="out"></div>
+</main>
+<script src="/insights.js"></script>
+</body>
+</html>

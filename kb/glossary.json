@@ -1,0 +1,723 @@
+{
+ "note": "Plain-language glosses for common legal and administrative wording. They explain what a word usually means in general. They are not legal advice and not an official interpretation of any law. Written by the KagojReady team; to be reviewed by a legal-language editor before production use.",
+ "reviewed_by": null,
+ "entries": [
+  {
+   "id": "notwithstanding",
+   "match_en": [
+    "notwithstanding"
+   ],
+   "match_bn": [
+    "সত্ত্বেও"
+   ],
+   "term_en": "notwithstanding",
+   "term_bn": "সত্ত্বেও",
+   "plain_en": "despite. This rule applies even if another rule says something different.",
+   "plain_bn": "তবুও বা ‘যা-ই থাকুক না কেন’। অন্য কোনো নিয়মে ভিন্ন কথা থাকলেও এই নিয়ম প্রযোজ্য হবে।"
+  },
+  {
+   "id": "pursuant",
+   "match_en": [
+    "pursuant to",
+    "in pursuance of"
+   ],
+   "match_bn": [],
+   "term_en": "pursuant to",
+   "term_bn": "",
+   "plain_en": "following, or under. The action is taken because of that law or rule.",
+   "plain_bn": "অনুযায়ী বা অধীনে। ওই আইন বা নিয়মের কারণে কাজটি করা হচ্ছে।"
+  },
+  {
+   "id": "hereinafter",
+   "match_en": [
+    "hereinafter"
+   ],
+   "match_bn": [
+    "অতঃপর",
+    "এখন হইতে"
+   ],
+   "term_en": "hereinafter",
+   "term_bn": "অতঃপর",
+   "plain_en": "from here on in this text.",
+   "plain_bn": "এই লেখার এরপর থেকে।"
+  },
+  {
+   "id": "aforesaid",
+   "match_en": [
+    "aforesaid",
+    "aforementioned"
+   ],
+   "match_bn": [
+    "উক্ত",
+    "উল্লিখিত",
+    "মর্মে"
+   ],
+   "term_en": "aforesaid",
+   "term_bn": "উক্ত",
+   "plain_en": "already mentioned earlier in the text.",
+   "plain_bn": "এই লেখায় আগে যা বলা হয়েছে সেটি।"
+  },
+  {
+   "id": "thereof",
+   "match_en": [
+    "thereof",
+    "therein",
+    "thereto",
+    "thereunder"
+   ],
+   "match_bn": [
+    "তৎ"
+   ],
+   "term_en": "thereof / therein",
+   "term_bn": "তৎ",
+   "plain_en": "of that, in that, to that, under that (it points back to something just named).",
+   "plain_bn": "ওটির, ওতে, ওটির অধীনে (একটু আগে বলা কিছুকে দেখায়)।"
+  },
+  {
+   "id": "herein",
+   "match_en": [
+    "herein",
+    "hereby",
+    "hereof"
+   ],
+   "match_bn": [
+    "অত্র"
+   ],
+   "term_en": "herein / hereby",
+   "term_bn": "অত্র",
+   "plain_en": "in this document, or by this document.",
+   "plain_bn": "এই দলিলে বা এই দলিল দ্বারা।"
+  },
+  {
+   "id": "shall",
+   "match_en": [
+    "shall"
+   ],
+   "match_bn": [
+    "করিতে হইবে",
+    "করতে হবে",
+    "হইবে না",
+    "বাধ্য থাকিবেন",
+    "বাধ্য"
+   ],
+   "term_en": "shall",
+   "term_bn": "করিতে হইবে",
+   "plain_en": "must. In a law this is a duty, not a suggestion.",
+   "plain_bn": "অবশ্যই করতে হবে। আইনে এটি বাধ্যবাধকতা, পরামর্শ নয়।"
+  },
+  {
+   "id": "may",
+   "match_en": [
+    "may"
+   ],
+   "match_bn": [
+    "পারিবেন",
+    "পারবেন"
+   ],
+   "term_en": "may",
+   "term_bn": "পারিবেন",
+   "plain_en": "is allowed to. It is a permission, not a duty.",
+   "plain_bn": "করার অনুমতি আছে। এটি অনুমতি, বাধ্যবাধকতা নয়।"
+  },
+  {
+   "id": "shallnot",
+   "match_en": [
+    "shall not",
+    "must not",
+    "may not",
+    "is prohibited",
+    "are prohibited",
+    "prohibited"
+   ],
+   "match_bn": [
+    "পারিবেন না",
+    "পারবেন না",
+    "নিষিদ্ধ"
+   ],
+   "term_en": "shall not / prohibited",
+   "term_bn": "পারিবেন না / নিষিদ্ধ",
+   "plain_en": "is not allowed.",
+   "plain_bn": "করা যাবে না।"
+  },
+  {
+   "id": "repeal",
+   "match_en": [
+    "repeal",
+    "repealed",
+    "repeals"
+   ],
+   "match_bn": [
+    "রহিত"
+   ],
+   "term_en": "repeal",
+   "term_bn": "রহিত",
+   "plain_en": "to cancel an earlier law or rule so it no longer applies.",
+   "plain_bn": "আগের কোনো আইন বা নিয়ম বাতিল করা, যাতে তা আর না চলে।"
+  },
+  {
+   "id": "amend",
+   "match_en": [
+    "amend",
+    "amended",
+    "amendment",
+    "amendments"
+   ],
+   "match_bn": [
+    "সংশোধনী",
+    "সংশোধিত"
+   ],
+   "term_en": "amendment",
+   "term_bn": "সংশোধনী",
+   "plain_en": "a change made to an existing law or rule.",
+   "plain_bn": "বিদ্যমান আইন বা নিয়মে আনা পরিবর্তন।"
+  },
+  {
+   "id": "ordinance",
+   "match_en": [
+    "ordinance",
+    "ordinances"
+   ],
+   "match_bn": [
+    "অধ্যাদেশ"
+   ],
+   "term_en": "ordinance",
+   "term_bn": "অধ্যাদেশ",
+   "plain_en": "a law issued by the head of state while parliament is not sitting. It normally needs approval by parliament later.",
+   "plain_bn": "সংসদ অধিবেশনে না থাকার সময় রাষ্ট্রের প্রধান যে আইন জারি করেন। পরে সাধারণত সংসদের অনুমোদন লাগে।"
+  },
+  {
+   "id": "gazette",
+   "match_en": [
+    "gazette",
+    "gazetted"
+   ],
+   "match_bn": [
+    "গেজেট"
+   ],
+   "term_en": "gazette",
+   "term_bn": "গেজেট",
+   "plain_en": "the government’s official publication where laws and official notices are printed.",
+   "plain_bn": "সরকারের সরকারি প্রকাশনা, যেখানে আইন ও সরকারি বিজ্ঞপ্তি ছাপা হয়।"
+  },
+  {
+   "id": "notification",
+   "match_en": [
+    "notification",
+    "notified"
+   ],
+   "match_bn": [
+    "প্রজ্ঞাপন"
+   ],
+   "term_en": "notification",
+   "term_bn": "প্রজ্ঞাপন",
+   "plain_en": "an official announcement issued by a government body.",
+   "plain_bn": "সরকারি কোনো সংস্থার জারি করা আনুষ্ঠানিক ঘোষণা।"
+  },
+  {
+   "id": "circular",
+   "match_en": [
+    "circular"
+   ],
+   "match_bn": [
+    "পরিপত্র"
+   ],
+   "term_en": "circular",
+   "term_bn": "পরিপত্র",
+   "plain_en": "an official instruction sent to offices or to the public.",
+   "plain_bn": "অফিস বা জনগণকে পাঠানো সরকারি নির্দেশনা।"
+  },
+  {
+   "id": "rules",
+   "match_en": [
+    "rules",
+    "regulations",
+    "regulation"
+   ],
+   "match_bn": [
+    "বিধিমালা"
+   ],
+   "term_en": "rules / regulations",
+   "term_bn": "বিধিমালা",
+   "plain_en": "detailed rules made under a law that explain how it works in practice.",
+   "plain_bn": "কোনো আইনের অধীনে তৈরি বিস্তারিত নিয়ম, যা বাস্তবে কীভাবে চলবে তা বলে।"
+  },
+  {
+   "id": "bylaw",
+   "match_en": [
+    "bye-law",
+    "bye-laws",
+    "bylaw",
+    "bylaws",
+    "by-law",
+    "by-laws"
+   ],
+   "match_bn": [
+    "উপ-আইন",
+    "উপআইন"
+   ],
+   "term_en": "bye-law",
+   "term_bn": "উপ-আইন",
+   "plain_en": "local rules made by a local body, for example a city corporation or municipality.",
+   "plain_bn": "স্থানীয় সংস্থা, যেমন সিটি কর্পোরেশন বা পৌরসভা, যে স্থানীয় নিয়ম তৈরি করে।"
+  },
+  {
+   "id": "statutory",
+   "match_en": [
+    "statutory",
+    "statute"
+   ],
+   "match_bn": [
+    "বিধিবদ্ধ",
+    "সংবিধিবদ্ধ"
+   ],
+   "term_en": "statutory",
+   "term_bn": "বিধিবদ্ধ",
+   "plain_en": "required or set by a law.",
+   "plain_bn": "আইন দ্বারা নির্ধারিত বা বাধ্যতামূলক।"
+  },
+  {
+   "id": "jurisdiction",
+   "match_en": [
+    "jurisdiction"
+   ],
+   "match_bn": [
+    "এখতিয়ার"
+   ],
+   "term_en": "jurisdiction",
+   "term_bn": "এখতিয়ার",
+   "plain_en": "the area or kind of matter that an office or court is allowed to decide.",
+   "plain_bn": "কোনো অফিস বা আদালত যে এলাকা বা বিষয়ে সিদ্ধান্ত নিতে পারে।"
+  },
+  {
+   "id": "tribunal",
+   "match_en": [
+    "tribunal"
+   ],
+   "match_bn": [
+    "ট্রাইব্যুনাল"
+   ],
+   "term_en": "tribunal",
+   "term_bn": "ট্রাইব্যুনাল",
+   "plain_en": "a special court-like body set up for one kind of dispute.",
+   "plain_bn": "বিশেষ ধরনের বিরোধের জন্য গঠিত আদালতের মতো সংস্থা।"
+  },
+  {
+   "id": "appeal",
+   "match_en": [
+    "appeal",
+    "appeals",
+    "appellate"
+   ],
+   "match_bn": [
+    "আপিল"
+   ],
+   "term_en": "appeal",
+   "term_bn": "আপিল",
+   "plain_en": "asking a higher authority to review a decision. There is usually a time limit.",
+   "plain_bn": "কোনো সিদ্ধান্ত উচ্চতর কর্তৃপক্ষকে আবার দেখতে বলা। সাধারণত এর একটি সময়সীমা থাকে।"
+  },
+  {
+   "id": "injunction",
+   "match_en": [
+    "injunction"
+   ],
+   "match_bn": [
+    "নিষেধাজ্ঞা"
+   ],
+   "term_en": "injunction",
+   "term_bn": "নিষেধাজ্ঞা",
+   "plain_en": "a court order telling someone to stop, or to do, something.",
+   "plain_bn": "আদালতের আদেশ, যাতে কাউকে কিছু বন্ধ করতে বা করতে বলা হয়।"
+  },
+  {
+   "id": "affidavit",
+   "match_en": [
+    "affidavit"
+   ],
+   "match_bn": [
+    "হলফনামা"
+   ],
+   "term_en": "affidavit",
+   "term_bn": "হলফনামা",
+   "plain_en": "a written statement that you swear is true. Giving false information can be punished.",
+   "plain_bn": "আপনি শপথ করে সত্য বলে লেখা বিবৃতি। মিথ্যা তথ্য দিলে শাস্তি হতে পারে।"
+  },
+  {
+   "id": "cognizable",
+   "match_en": [
+    "cognizable",
+    "cognisable"
+   ],
+   "match_bn": [
+    "আমলযোগ্য"
+   ],
+   "term_en": "cognizable offence",
+   "term_bn": "আমলযোগ্য অপরাধ",
+   "plain_en": "a serious offence for which the police can generally arrest without a court warrant.",
+   "plain_bn": "গুরুতর অপরাধ, যেখানে পুলিশ সাধারণত আদালতের পরোয়ানা ছাড়াই গ্রেপ্তার করতে পারে।"
+  },
+  {
+   "id": "bailable",
+   "match_en": [
+    "non-bailable",
+    "nonbailable"
+   ],
+   "match_bn": [
+    "জামিন অযোগ্য",
+    "অজামিনযোগ্য"
+   ],
+   "term_en": "non-bailable",
+   "term_bn": "জামিন অযোগ্য",
+   "plain_en": "bail is not a right in this case. A court decides whether to grant it.",
+   "plain_bn": "এই ক্ষেত্রে জামিন অধিকার নয়। জামিন দেওয়া হবে কি না আদালত ঠিক করে।"
+  },
+  {
+   "id": "bail",
+   "match_en": [
+    "bail"
+   ],
+   "match_bn": [
+    "জামিন"
+   ],
+   "term_en": "bail",
+   "term_bn": "জামিন",
+   "plain_en": "temporary release of an accused person, usually on conditions, until the case is decided.",
+   "plain_bn": "মামলার নিষ্পত্তি পর্যন্ত, সাধারণত শর্তসাপেক্ষে, অভিযুক্তের সাময়িক মুক্তি।"
+  },
+  {
+   "id": "fine",
+   "match_en": [
+    "penalty",
+    "penalties",
+    "fine",
+    "fines"
+   ],
+   "match_bn": [
+    "জরিমানা",
+    "অর্থদণ্ড"
+   ],
+   "term_en": "penalty / fine",
+   "term_bn": "জরিমানা / অর্থদণ্ড",
+   "plain_en": "money you must pay as punishment for breaking a rule.",
+   "plain_bn": "নিয়ম ভাঙার শাস্তি হিসেবে যে টাকা দিতে হয়।"
+  },
+  {
+   "id": "imprisonment",
+   "match_en": [
+    "imprisonment",
+    "imprisoned"
+   ],
+   "match_bn": [
+    "কারাদণ্ড"
+   ],
+   "term_en": "imprisonment",
+   "term_bn": "কারাদণ্ড",
+   "plain_en": "time in jail as punishment.",
+   "plain_bn": "শাস্তি হিসেবে জেলে থাকা।"
+  },
+  {
+   "id": "punishable",
+   "match_en": [
+    "punishable"
+   ],
+   "match_bn": [
+    "দণ্ডনীয়"
+   ],
+   "term_en": "punishable",
+   "term_bn": "দণ্ডনীয়",
+   "plain_en": "can be punished under the law.",
+   "plain_bn": "আইনে শাস্তি পেতে পারে।"
+  },
+  {
+   "id": "levy",
+   "match_en": [
+    "levy",
+    "levied",
+    "impose",
+    "imposed"
+   ],
+   "match_bn": [
+    "আরোপ"
+   ],
+   "term_en": "levy / impose",
+   "term_bn": "আরোপ",
+   "plain_en": "to charge or put in place, for example a tax or a fee.",
+   "plain_bn": "কোনো কর বা ফি ধার্য করা বা চালু করা।"
+  },
+  {
+   "id": "exemption",
+   "match_en": [
+    "exemption",
+    "exempt",
+    "exempted"
+   ],
+   "match_bn": [
+    "অব্যাহতি",
+    "রেহাই"
+   ],
+   "term_en": "exemption",
+   "term_bn": "অব্যাহতি",
+   "plain_en": "not having to follow a rule or pay a charge that others must.",
+   "plain_bn": "অন্যদের জন্য যে নিয়ম বা খরচ বাধ্যতামূলক, তা মানতে বা দিতে না হওয়া।"
+  },
+  {
+   "id": "liable",
+   "match_en": [
+    "liable",
+    "liability"
+   ],
+   "match_bn": [
+    "দায়ী"
+   ],
+   "term_en": "liable",
+   "term_bn": "দায়ী",
+   "plain_en": "legally responsible, so you may have to pay or be punished.",
+   "plain_bn": "আইনের চোখে দায়ী, তাই জরিমানা দিতে বা শাস্তি পেতে হতে পারে।"
+  },
+  {
+   "id": "void",
+   "match_en": [
+    "null and void",
+    "void",
+    "voidable"
+   ],
+   "match_bn": [
+    "বাতিল",
+    "অকার্যকর"
+   ],
+   "term_en": "null and void",
+   "term_bn": "বাতিল",
+   "plain_en": "has no legal effect.",
+   "plain_bn": "আইনি কোনো কার্যকারিতা নেই।"
+  },
+  {
+   "id": "inforce",
+   "match_en": [
+    "in force",
+    "with effect from",
+    "come into force",
+    "comes into force"
+   ],
+   "match_bn": [
+    "বলবৎ",
+    "কার্যকর হইবে",
+    "কার্যকর হবে"
+   ],
+   "term_en": "in force / with effect from",
+   "term_bn": "বলবৎ / কার্যকর",
+   "plain_en": "the rule applies (from the date given).",
+   "plain_bn": "নিয়মটি চালু আছে (বা বলা তারিখ থেকে চালু হবে)।"
+  },
+  {
+   "id": "exparte",
+   "match_en": [
+    "ex parte",
+    "ex-parte"
+   ],
+   "match_bn": [
+    "একতরফা"
+   ],
+   "term_en": "ex parte",
+   "term_bn": "একতরফা",
+   "plain_en": "decided with only one side present.",
+   "plain_bn": "শুধু এক পক্ষের উপস্থিতিতে নেওয়া সিদ্ধান্ত।"
+  },
+  {
+   "id": "subjudice",
+   "match_en": [
+    "sub judice",
+    "sub-judice"
+   ],
+   "match_bn": [
+    "বিচারাধীন"
+   ],
+   "term_en": "sub judice",
+   "term_bn": "বিচারাধীন",
+   "plain_en": "a case that is still being decided by a court.",
+   "plain_bn": "আদালতে এখনো যে মামলার বিচার চলছে।"
+  },
+  {
+   "id": "tds",
+   "match_en": [
+    "tax deducted at source",
+    "deducted at source",
+    "withholding tax",
+    "withholding"
+   ],
+   "match_bn": [
+    "উৎসে কর"
+   ],
+   "term_en": "tax deducted at source",
+   "term_bn": "উৎসে কর",
+   "plain_en": "tax taken out before the money reaches you.",
+   "plain_bn": "টাকা আপনার হাতে পৌঁছানোর আগেই কেটে রাখা কর।"
+  },
+  {
+   "id": "vat",
+   "match_en": [
+    "value added tax",
+    "vat"
+   ],
+   "match_bn": [
+    "মূসক",
+    "ভ্যাট"
+   ],
+   "term_en": "VAT",
+   "term_bn": "মূসক / ভ্যাট",
+   "plain_en": "a tax added to the price of goods and services.",
+   "plain_bn": "পণ্য ও সেবার দামের সঙ্গে যুক্ত হওয়া কর।"
+  },
+  {
+   "id": "arrears",
+   "match_en": [
+    "arrear",
+    "arrears",
+    "outstanding dues"
+   ],
+   "match_bn": [
+    "বকেয়া"
+   ],
+   "term_en": "arrears",
+   "term_bn": "বকেয়া",
+   "plain_en": "money that was due earlier and is still unpaid.",
+   "plain_bn": "আগেই পাওনা হয়েছে কিন্তু এখনো না দেওয়া টাকা।"
+  },
+  {
+   "id": "limitation",
+   "match_en": [
+    "limitation period",
+    "time-barred",
+    "time barred"
+   ],
+   "match_bn": [
+    "তামাদি"
+   ],
+   "term_en": "limitation period",
+   "term_bn": "তামাদি",
+   "plain_en": "the deadline after which you can no longer bring a legal claim.",
+   "plain_bn": "যে সময়ের পর আর আইনি দাবি তোলা যায় না।"
+  },
+  {
+   "id": "interalia",
+   "match_en": [
+    "inter alia"
+   ],
+   "match_bn": [
+    "অন্যান্যের মধ্যে"
+   ],
+   "term_en": "inter alia",
+   "term_bn": "অন্যান্যের মধ্যে",
+   "plain_en": "among other things.",
+   "plain_bn": "অন্য অনেক কিছুর মধ্যে।"
+  },
+  {
+   "id": "bonafide",
+   "match_en": [
+    "bona fide",
+    "bonafide"
+   ],
+   "match_bn": [
+    "সরল বিশ্বাসে"
+   ],
+   "term_en": "bona fide",
+   "term_bn": "সরল বিশ্বাসে",
+   "plain_en": "genuine and in good faith.",
+   "plain_bn": "সৎভাবে, কোনো দুরভিসন্ধি ছাড়া।"
+  },
+  {
+   "id": "mutatis",
+   "match_en": [
+    "mutatis mutandis"
+   ],
+   "match_bn": [],
+   "term_en": "mutatis mutandis",
+   "term_bn": "",
+   "plain_en": "with the changes needed to fit the new situation.",
+   "plain_bn": "নতুন পরিস্থিতিতে যতটুকু বদল দরকার ততটুকু বদল করে।"
+  },
+  {
+   "id": "primafacie",
+   "match_en": [
+    "prima facie"
+   ],
+   "match_bn": [],
+   "term_en": "prima facie",
+   "term_bn": "",
+   "plain_en": "at first look, before the full facts are examined.",
+   "plain_bn": "প্রথম দেখায়, সব তথ্য যাচাইয়ের আগে।"
+  },
+  {
+   "id": "competent",
+   "match_en": [
+    "competent authority",
+    "appropriate authority",
+    "prescribed authority"
+   ],
+   "match_bn": [
+    "যথাযথ কর্তৃপক্ষ",
+    "উপযুক্ত কর্তৃপক্ষ",
+    "নির্ধারিত কর্তৃপক্ষ"
+   ],
+   "term_en": "competent authority",
+   "term_bn": "যথাযথ কর্তৃপক্ষ",
+   "plain_en": "the office or official that the law names as responsible for this matter.",
+   "plain_bn": "এই বিষয়ে আইনে যে অফিস বা কর্মকর্তাকে দায়িত্ব দেওয়া আছে।"
+  },
+  {
+   "id": "prescribed",
+   "match_en": [
+    "prescribed"
+   ],
+   "match_bn": [
+    "নির্ধারিত"
+   ],
+   "term_en": "prescribed",
+   "term_bn": "নির্ধারিত",
+   "plain_en": "set out in the rules, for example a prescribed form or fee.",
+   "plain_bn": "বিধিতে ঠিক করে দেওয়া, যেমন নির্ধারিত ফরম বা ফি।"
+  },
+  {
+   "id": "enactment",
+   "match_en": [
+    "enactment",
+    "enacted"
+   ],
+   "match_bn": [
+    "প্রণীত"
+   ],
+   "term_en": "enacted",
+   "term_bn": "প্রণীত",
+   "plain_en": "made into law.",
+   "plain_bn": "আইন হিসেবে তৈরি করা।"
+  },
+  {
+   "id": "subsection",
+   "match_en": [
+    "sub-section",
+    "subsection",
+    "proviso"
+   ],
+   "match_bn": [
+    "উপধারা",
+    "শর্তাংশ"
+   ],
+   "term_en": "sub-section / proviso",
+   "term_bn": "উপধারা / শর্তাংশ",
+   "plain_en": "a smaller part of a law section, or a condition added to a rule.",
+   "plain_bn": "আইনের ধারার ছোট অংশ, অথবা কোনো নিয়মের সঙ্গে যুক্ত শর্ত।"
+  },
+  {
+   "id": "renewal_licence",
+   "match_en": [
+    "licensee"
+   ],
+   "match_bn": [
+    "লাইসেন্সধারী"
+   ],
+   "term_en": "licensee",
+   "term_bn": "লাইসেন্সধারী",
+   "plain_en": "the person or business that holds the licence.",
+   "plain_bn": "যিনি বা যে প্রতিষ্ঠান লাইসেন্স ধারণ করেন।"
+  }
+ ]
+}

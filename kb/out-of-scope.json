@@ -1,0 +1,14 @@
+{
+  "note": "Services people ask about that KagojReady does not cover yet. Each match is answered with a clear 'not covered' message instead of a nearby-but-wrong passage, and counted (the topic id only, never the question) so the next service to build is chosen from real demand.",
+  "services": [
+    { "id": "driving-licence", "name_en": "driving licence", "name_bn": "ড্রাইভিং লাইসেন্স", "match": ["driving\\s*licen[cs]e", "driver'?s?\\s*licen[cs]e", "driving\\s*lis[ae]n[cs]e", "ড্রাইভিং", "ড্রাইভার লাইসেন্স", "driving license"] },
+    { "id": "trade-licence", "name_en": "trade licence", "name_bn": "ট্রেড লাইসেন্স", "match": ["trade\\s*licen[cs]e", "business\\s*licen[cs]e", "shop\\s*licen[cs]e", "ট্রেড লাইসেন্স", "ব্যবসার লাইসেন্স"] },
+    { "id": "visa", "name_en": "visa", "name_bn": "ভিসা", "match": ["\\bvisa\\b", "ভিসা"] },
+    { "id": "tax", "name_en": "income tax and TIN", "name_bn": "আয়কর ও টিআইএন", "match": ["income\\s*tax", "tax\\s*return", "\\btin\\b", "\\btax\\b", "আয়কর", "ট্যাক্স", "টিআইএন"] },
+    { "id": "land", "name_en": "land records and registration", "name_bn": "জমির নথি ও রেজিস্ট্রেশন", "match": ["\\bland\\b", "mutation", "namjari", "jomi", "jomir", "dolil", "জমি", "জমির", "দলিল", "নামজারি", "খতিয়ান"] },
+    { "id": "newborn-birth-registration", "name_en": "birth registration for a newborn", "name_bn": "নবজাতকের জন্মনিবন্ধন", "match": ["new\\s*born", "\\bbaby\\b", "\\binfant\\b", "নবজাতক", "সদ্যজাত", "শিশুর জন্মনিবন্ধন"] },
+    { "id": "marriage", "name_en": "marriage registration", "name_bn": "বিবাহ নিবন্ধন", "match": ["marriage", "kabin", "কাবিন", "বিবাহ", "বিয়ে"] },
+    { "id": "death", "name_en": "death certificate", "name_bn": "মৃত্যু সনদ", "match": ["death\\s*certificate", "মৃত্যু সনদ", "মৃত্যুসনদ"] },
+    { "id": "utility", "name_en": "utility bills and connections", "name_bn": "ইউটিলিটি বিল ও সংযোগ", "match": ["electricity", "gas\\s*bill", "water\\s*bill", "বিদ্যুৎ", "গ্যাস বিল", "পানির বিল"] }
+  ]
+}

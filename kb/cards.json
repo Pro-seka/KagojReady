@@ -1,0 +1,404 @@
+{
+ "sources": {
+  "LON": {
+   "label": "Bangladesh High Commission London: e-passport application (mission page, UK applicants)",
+   "url": "https://bhclondon.org.uk/e-passport-application",
+   "retrieved": "2026-10-20"
+  },
+  "BHM": {
+   "label": "Bangladesh Mission Birmingham (mofa.gov.bd): E-Passport (mission page, UK applicants)",
+   "url": "https://birmingham.mofa.gov.bd/pages/static-pages/695266aa35ce18e1c05aaa75",
+   "retrieved": "2026-10-20"
+  },
+  "CHN": {
+   "label": "Bangladesh Mission Chennai (mofa.gov.bd): General instructions for e-passport (mission page, applicants in India)",
+   "url": "https://chennai.mofa.gov.bd/pages/static-pages/695266b135ce18e1c05aacfc",
+   "retrieved": "2026-10-20"
+  },
+  "TBS": {
+   "label": "The Business Standard: NID corrections (press report, not an official page)",
+   "url": "https://www.tbsnews.net/features/panorama/never-ending-nightmare-nid-corrections-bangladesh-1099006",
+   "retrieved": "2026-10-20"
+  },
+  "DT": {
+   "label": "Dhaka Tribune: NID correction categories (press report on the 2023 EC notification)",
+   "url": "https://www.dhakatribune.com/bangladesh/385651/nearly-350-000-nids-pending-correction",
+   "retrieved": "2026-10-20"
+  },
+  "FE": {
+   "label": "The Financial Express: EC delegates NID birth date corrections to field offices (press report)",
+   "url": "https://thefinancialexpress.com.bd/national/ec-delegates-nid-birth-date-corrections-to-field-offices",
+   "retrieved": "2026-10-20"
+  },
+  "OBS": {
+   "label": "The Observer (August 2026): proposal to ease NID corrections for expatriates (press report)",
+   "url": "https://observerbd.com/news/588680",
+   "retrieved": "2026-10-20"
+  }
+ },
+ "cards": [
+  {
+   "id": "pp-match",
+   "service": "bd-passport-adult-renewal",
+   "kind": "guidance",
+   "title_en": "Details must match across your documents",
+   "title_bn": "আপনার সব কাগজে তথ্য মিলতে হবে",
+   "text_en": "For a passport application, the details on your existing passport, your NID or online birth registration certificate, and your new application should be the same. Official mission pages warn that a mismatch can make an application fail.",
+   "text_bn": "পাসপোর্ট আবেদনে আপনার বর্তমান পাসপোর্ট, এনআইডি বা অনলাইন জন্মনিবন্ধন সনদ এবং নতুন আবেদনের তথ্য একই হওয়া উচিত। সরকারি মিশনের পাতায় সতর্ক করা হয়েছে যে অমিল থাকলে আবেদন ব্যর্থ হতে পারে।",
+   "source": "BHM",
+   "status": "official",
+   "tags": [
+    "mismatch",
+    "same",
+    "consistent",
+    "অমিল",
+    "মিল",
+    "নাম",
+    "জন্ম তারিখ"
+   ]
+  },
+  {
+   "id": "pp-identity-doc",
+   "service": "bd-passport-adult-renewal",
+   "kind": "guidance",
+   "title_en": "NID or birth certificate as the identity document",
+   "title_bn": "পরিচয়ের কাগজ: এনআইডি নাকি জন্মনিবন্ধন সনদ",
+   "text_en": "The identity document asked for is your Bangladeshi NID card. Mission guidance says the online birth registration certificate should be used only if no NID has been issued.",
+   "text_bn": "চাওয়া পরিচয়ের কাগজ হলো বাংলাদেশের জাতীয় পরিচয়পত্র। মিশনের নির্দেশনায় বলা আছে, এনআইডি ইস্যু না হয়ে থাকলে তবেই অনলাইন জন্মনিবন্ধন সনদ ব্যবহার করতে হবে।",
+   "source": "BHM",
+   "status": "official",
+   "tags": [
+    "birth certificate",
+    "no NID",
+    "জন্মনিবন্ধন",
+    "এনআইডি নেই",
+    "জাতীয় পরিচয়পত্র"
+   ]
+  },
+  {
+   "id": "pp-existing",
+   "service": "bd-passport-adult-renewal",
+   "kind": "guidance",
+   "title_en": "A renewal needs your existing passport",
+   "title_bn": "নবায়নের জন্য আপনার বর্তমান পাসপোর্ট লাগবে",
+   "text_en": "A passport renewal application needs your existing Bangladesh passport. Mission pages list it among the documents to bring.",
+   "text_bn": "পাসপোর্ট নবায়নের আবেদনে আপনার বর্তমান বাংলাদেশি পাসপোর্ট লাগে। মিশনের পাতায় এটি সঙ্গে আনার কাগজের তালিকায় আছে।",
+   "source": "BHM",
+   "status": "official",
+   "tags": [
+    "renew",
+    "renewal",
+    "documents",
+    "need",
+    "require",
+    "নবায়ন",
+    "কাগজ",
+    "লাগে",
+    "পুরোনো পাসপোর্ট"
+   ]
+  },
+  {
+   "id": "pp-nid-basis",
+   "service": "bd-passport-adult-renewal",
+   "kind": "guidance",
+   "title_en": "If your passport was issued with an NID, bring the NID",
+   "title_bn": "আপনার পাসপোর্ট এনআইডি দিয়ে করা হলে এনআইডি আনুন",
+   "text_en": "If your existing passport was issued on the basis of an NID, the applicant must bring the NID. This is stated on a mission page for applicants in the UK.",
+   "text_bn": "আপনার বর্তমান পাসপোর্ট এনআইডির ভিত্তিতে করা হয়ে থাকলে আবেদনকারীকে এনআইডি সঙ্গে আনতে হবে। এটি যুক্তরাজ্যের আবেদনকারীদের জন্য একটি মিশনের পাতায় বলা আছে।",
+   "source": "LON",
+   "status": "official",
+   "tags": [
+    "NID",
+    "bring",
+    "এনআইডি",
+    "সঙ্গে আনা"
+   ]
+  },
+  {
+   "id": "pp-under18",
+   "service": "bd-passport-adult-renewal",
+   "kind": "guidance",
+   "title_en": "Applicants under 18 follow different requirements",
+   "title_bn": "১৮ বছরের কম বয়সীদের জন্য আলাদা নিয়ম",
+   "text_en": "Applicants below 18 follow different requirements. For example, a parent's NID number is needed in the online application. This comes from a mission page written for applicants abroad.",
+   "text_bn": "১৮ বছরের কম বয়সী আবেদনকারীদের জন্য আলাদা নিয়ম প্রযোজ্য। যেমন অনলাইন আবেদনে বাবা বা মায়ের এনআইডি নম্বর দিতে হয়। এটি বিদেশে থাকা আবেদনকারীদের জন্য লেখা একটি মিশনের পাতা থেকে নেওয়া।",
+   "source": "CHN",
+   "status": "official",
+   "tags": [
+    "minor",
+    "child",
+    "children",
+    "under 18",
+    "age",
+    "শিশু",
+    "নাবালক",
+    "বয়স",
+    "১৮ বছর"
+   ]
+  },
+  {
+   "id": "pp-name-strictness",
+   "service": "bd-passport-adult-renewal",
+   "kind": "guidance",
+   "title_en": "How strict is the name match?",
+   "title_bn": "নামের মিল কতটা কঠোর?",
+   "text_en": "Mission pages say all information must match, but they do not say whether small differences such as Md. or a spelling variation are accepted. KagojReady treats any difference as a warning and recommends confirming with the office.",
+   "text_bn": "মিশনের পাতায় বলা আছে সব তথ্য মিলতে হবে, কিন্তু মো. বা বানানের ছোট পার্থক্য গ্রহণযোগ্য কি না তা বলা নেই। কাগজরেডি যেকোনো পার্থক্যকে সতর্কতা হিসেবে দেখায় এবং অফিসে নিশ্চিত হতে বলে।",
+   "source": "BHM",
+   "status": "unconfirmed",
+   "tags": [
+    "name",
+    "spelling",
+    "Md",
+    "Mohammad",
+    "honorific",
+    "নাম",
+    "বানান",
+    "মোঃ",
+    "আলাদা"
+   ]
+  },
+  {
+   "id": "pp-abroad-note",
+   "service": null,
+   "kind": "note",
+   "title_en": "Most official guidance found is for applicants abroad",
+   "title_bn": "পাওয়া সরকারি নির্দেশনার বেশিরভাগই প্রবাসীদের জন্য",
+   "text_en": "Most of the official guidance KagojReady found is published by Bangladesh missions abroad for their own applicants. A rule that applies abroad may differ at home, so every answer shows its source, and the passport office makes the final decision.",
+   "text_bn": "কাগজরেডির পাওয়া সরকারি নির্দেশনার বেশিরভাগই বিদেশে বাংলাদেশ মিশনগুলো নিজেদের আবেদনকারীদের জন্য প্রকাশ করেছে। বিদেশে যা প্রযোজ্য, দেশে তা ভিন্ন হতে পারে। তাই প্রতিটি উত্তরের সঙ্গে সূত্র দেখানো হয় এবং চূড়ান্ত সিদ্ধান্ত নেয় পাসপোর্ট অফিস।",
+   "source": null,
+   "status": "product",
+   "tags": [
+    "abroad",
+    "expatriate",
+    "NRB",
+    "mission",
+    "embassy",
+    "প্রবাসী",
+    "বিদেশ",
+    "মিশন",
+    "দূতাবাস"
+   ]
+  },
+  {
+   "id": "nid-slow",
+   "service": "bd-nid-correction",
+   "kind": "guidance",
+   "title_en": "NID corrections can take a long time",
+   "title_bn": "এনআইডি সংশোধনে অনেক সময় লাগতে পারে",
+   "text_en": "Press reports describe NID corrections as slow and difficult, with long waits. Starting as early as you can is advised.",
+   "text_bn": "সংবাদ প্রতিবেদনে এনআইডি সংশোধনকে ধীর ও কঠিন বলা হয়েছে, অনেক সময় অপেক্ষা করতে হয়। যত তাড়াতাড়ি সম্ভব শুরু করার পরামর্শ দেওয়া হয়।",
+   "source": "TBS",
+   "status": "unconfirmed",
+   "tags": [
+    "how long",
+    "time",
+    "delay",
+    "slow",
+    "wait",
+    "সময়",
+    "দেরি",
+    "কত দিন",
+    "সংশোধন"
+   ]
+  },
+  {
+   "id": "nid-dob-proof",
+   "service": "bd-nid-correction",
+   "kind": "guidance",
+   "title_en": "Proof for a date-of-birth correction",
+   "title_bn": "জন্ম তারিখ সংশোধনের প্রমাণ",
+   "text_en": "Press reports say a date-of-birth correction needs supporting proof, such as an attested copy of the SSC certificate or a birth certificate, and is applied for through the local election office.",
+   "text_bn": "সংবাদ প্রতিবেদন অনুযায়ী জন্ম তারিখ সংশোধনে সহায়ক প্রমাণ লাগে, যেমন এসএসসি সনদের সত্যায়িত কপি বা জন্মনিবন্ধন সনদ। আবেদন করতে হয় স্থানীয় নির্বাচন অফিসের মাধ্যমে।",
+   "source": "TBS",
+   "status": "unconfirmed",
+   "tags": [
+    "date of birth",
+    "DOB",
+    "birth date",
+    "SSC",
+    "certificate",
+    "proof",
+    "জন্ম তারিখ",
+    "এসএসসি",
+    "সনদ",
+    "প্রমাণ",
+    "নির্বাচন অফিস"
+   ]
+  },
+  {
+   "id": "nid-once",
+   "service": "bd-nid-correction",
+   "kind": "guidance",
+   "title_en": "A corrected detail may not be corrected again",
+   "title_bn": "একবার সংশোধিত তথ্য আবার সংশোধন নাও করা যেতে পারে",
+   "text_en": "A press report on the Election Commission's rules says a detail that has already been corrected once cannot be corrected again. Check every detail carefully before you apply.",
+   "text_bn": "নির্বাচন কমিশনের নিয়ম নিয়ে একটি সংবাদ প্রতিবেদনে বলা হয়েছে, একবার সংশোধিত তথ্য আবার সংশোধন করা যায় না। আবেদনের আগে প্রতিটি তথ্য সাবধানে দেখে নিন।",
+   "source": "FE",
+   "status": "unconfirmed",
+   "tags": [
+    "twice",
+    "again",
+    "once",
+    "second time",
+    "correct again",
+    "একবার",
+    "আবার",
+    "দ্বিতীয়বার"
+   ]
+  },
+  {
+   "id": "nid-categories",
+   "service": "bd-nid-correction",
+   "kind": "guidance",
+   "title_en": "Corrections are grouped into categories",
+   "title_bn": "সংশোধন কয়েকটি ক্যাটাগরিতে ভাগ করা",
+   "text_en": "Press reports describe different NID correction categories, depending on how large the change is.",
+   "text_bn": "সংবাদ প্রতিবেদনে এনআইডি সংশোধনের বিভিন্ন ক্যাটাগরির কথা বলা হয়েছে, পরিবর্তন কত বড় তার ওপর নির্ভর করে।",
+   "source": "DT",
+   "status": "unconfirmed",
+   "tags": [
+    "category",
+    "types",
+    "size of change",
+    "ক্যাটাগরি",
+    "ধরন"
+   ]
+  },
+  {
+   "id": "nid-expat-proposal",
+   "service": "bd-nid-correction",
+   "kind": "guidance",
+   "title_en": "Easier NID correction for people abroad is only a proposal",
+   "title_bn": "প্রবাসীদের জন্য সহজ এনআইডি সংশোধন এখনো শুধু প্রস্তাব",
+   "text_en": "In August 2026 a newspaper reported a proposal to ease NID corrections for Bangladeshis abroad. It is a proposal, not a rule you can rely on yet.",
+   "text_bn": "২০২৬ সালের আগস্টে একটি পত্রিকা প্রবাসী বাংলাদেশিদের এনআইডি সংশোধন সহজ করার একটি প্রস্তাবের খবর দিয়েছে। এটি প্রস্তাব মাত্র, এখনো ভরসা করার মতো নিয়ম নয়।",
+   "source": "OBS",
+   "status": "unconfirmed",
+   "tags": [
+    "expat",
+    "expatriate",
+    "NRB",
+    "abroad",
+    "proposal",
+    "প্রবাসী",
+    "বিদেশ",
+    "প্রস্তাব",
+    "এনআরবি"
+   ]
+  },
+  {
+   "id": "kr-what",
+   "service": null,
+   "kind": "note",
+   "title_en": "What KagojReady can and cannot do",
+   "title_bn": "কাগজরেডি কী পারে আর কী পারে না",
+   "text_en": "KagojReady answers questions from the sources it shows, and checks your documents against the rules it knows so you can fix problems before you travel. It is a pre-check, not an official approval. The office makes the final decision.",
+   "text_bn": "কাগজরেডি দেখানো সূত্র থেকে প্রশ্নের উত্তর দেয় এবং জানা নিয়মের সঙ্গে আপনার কাগজ মিলিয়ে দেখে, যাতে যাওয়ার আগেই সমস্যা ঠিক করতে পারেন। এটি প্রাথমিক যাচাই, সরকারি অনুমোদন নয়। চূড়ান্ত সিদ্ধান্ত নেয় অফিস।",
+   "source": null,
+   "status": "product",
+   "tags": [
+    "about",
+    "what can you do",
+    "approval",
+    "official",
+    "সহায়তা",
+    "অনুমোদন",
+    "কী পারে"
+   ]
+  },
+  {
+   "id": "kr-privacy",
+   "service": null,
+   "kind": "note",
+   "title_en": "Your photos and details",
+   "title_bn": "আপনার ছবি ও তথ্য",
+   "text_en": "Document photos are read by an AI service to pull out the text, then discarded. KagojReady does not keep your photos or details. Phone, ID and passport numbers typed into the chat are hidden before the text goes to the AI.",
+   "text_bn": "কাগজের ছবি এআই সেবা পড়ে লেখা বের করে, তারপর ফেলে দেওয়া হয়। কাগজরেডি আপনার ছবি বা তথ্য রাখে না। চ্যাটে লেখা ফোন, আইডি ও পাসপোর্ট নম্বর এআইকে পাঠানোর আগেই লুকিয়ে ফেলা হয়।",
+   "source": null,
+   "status": "product",
+   "tags": [
+    "privacy",
+    "data",
+    "store",
+    "save",
+    "keep",
+    "photo",
+    "safe",
+    "গোপনীয়তা",
+    "ছবি",
+    "জমা",
+    "সংরক্ষণ",
+    "নিরাপদ",
+    "তথ্য"
+   ]
+  },
+  {
+   "id": "kr-sources",
+   "service": null,
+   "kind": "note",
+   "title_en": "Where the rules come from",
+   "title_bn": "নিয়মগুলো কোথা থেকে আসে",
+   "text_en": "Each rule shows whether it comes from an official page, from service-centre operators, or is not yet confirmed, together with its source and the date it was last checked.",
+   "text_bn": "প্রতিটি নিয়মের সঙ্গে দেখানো হয় সেটি সরকারি পাতা, সেবা কেন্দ্রের অপারেটর, নাকি এখনো অনিশ্চিত, সঙ্গে সূত্র ও সর্বশেষ যাচাইয়ের তারিখ।",
+   "source": null,
+   "status": "product",
+   "tags": [
+    "source",
+    "where from",
+    "verified",
+    "trust",
+    "সূত্র",
+    "যাচাই",
+    "বিশ্বাস",
+    "নিয়ম"
+   ]
+  },
+  {
+   "id": "kr-unreadable",
+   "service": null,
+   "kind": "note",
+   "title_en": "When a photo cannot be read",
+   "title_bn": "ছবি পড়া না গেলে কী হয়",
+   "text_en": "If a photo is blurry, cropped or has glare, KagojReady says it could not read it and asks you to retake it instead of guessing.",
+   "text_bn": "ছবি ঝাপসা, কাটা বা আলোর ঝলকে ঢাকা থাকলে কাগজরেডি আন্দাজ না করে জানায় যে পড়া যায়নি এবং ছবি আবার তুলতে বলে।",
+   "source": null,
+   "status": "product",
+   "tags": [
+    "blurry",
+    "photo",
+    "glare",
+    "retake",
+    "unreadable",
+    "ঝাপসা",
+    "ছবি",
+    "আবার তোলা"
+   ]
+  },
+  {
+   "id": "kr-no-fees",
+   "service": null,
+   "kind": "note",
+   "title_en": "Fees, processing times and office hours",
+   "title_bn": "ফি, সময় ও অফিসের সময়সূচি",
+   "text_en": "KagojReady does not have verified information on fees, processing times or office hours yet. Please check the official portal or ask the office.",
+   "text_bn": "ফি, প্রক্রিয়াকরণের সময় বা অফিসের সময়সূচি নিয়ে কাগজরেডির কাছে এখনো যাচাই করা তথ্য নেই। অনুগ্রহ করে সরকারি পোর্টাল দেখুন বা অফিসে জিজ্ঞাসা করুন।",
+   "source": null,
+   "status": "product",
+   "tags": [
+    "fee",
+    "fees",
+    "cost",
+    "price",
+    "how much",
+    "office hours",
+    "processing time",
+    "ফি",
+    "খরচ",
+    "টাকা",
+    "কত",
+    "সময়সূচি"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="description" content="Ask about government services in Bangla or English and check your documents before you travel.">
+<title>KagojReady · কাগজ রেডি</title>
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="mark" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><path d="M6 12l4 4 8-8"/></svg></span>
+    <span id="appName">কাগজ রেডি</span>
+  </div>
+  <div class="seg" role="group" aria-label="Language / ভাষা">
+    <button type="button" id="lang-bn" aria-pressed="true" lang="bn">বাংলা</button>
+    <button type="button" id="lang-en" aria-pressed="false" lang="en" aria-label="English">EN</button>
+  </div>
+  <button type="button" id="largeBtn" class="iconbtn" aria-pressed="false" aria-label="Larger text"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l5-14 5 14M6 15h6M17 9v8M13 13h8"/></svg></button>
+  <button type="button" id="infoBtn" class="iconbtn" aria-label="Privacy"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></button>
+  <button type="button" id="newBtn" class="iconbtn" aria-label="New chat"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+</header>
+<div class="banners" id="banners"></div>
+<nav class="lanes" id="lanes"></nav>
+<main id="chat" aria-label="Conversation" tabindex="-1"><div class="thread" id="thread"></div></main>
+<div id="announce" class="sr" role="status" aria-live="polite"></div>
+<div class="dock">
+  <form class="composer" id="composer" autocomplete="off">
+    <textarea id="input" rows="1" maxlength="600" aria-label="Message" disabled></textarea>
+    <div class="crow">
+      <button type="button" id="attachBtn" class="iconbtn" disabled><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.4 11l-9.2 9.2a6 6 0 01-8.5-8.5l9.2-9.2a4 4 0 015.7 5.7l-9.2 9.2a2 2 0 01-2.8-2.8l8.5-8.5"/></svg></button>
+      <span class="sp"></span>
+      <span class="count" id="count" hidden></span>
+      <button type="button" id="micBtn" class="iconbtn" hidden aria-pressed="false"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a3 3 0 00-3 3v7a3 3 0 006 0V5a3 3 0 00-3-3zM19 10v2a7 7 0 01-14 0v-2M12 19v3"/></svg></button>
+      <button type="submit" id="sendBtn" class="send" disabled><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+    </div>
+  </form>
+  <p class="fine" id="fine"></p>
+</div>
+<div id="overlay"></div>
+<noscript><p class="strip">This page needs JavaScript. এই পাতা চালাতে জাভাস্ক্রিপ্ট দরকার।</p></noscript>
+<script src="/app.js"></script>
+<script src="/lanes/coach.js"></script>
+<script src="/lanes/plain.js"></script>
+<script src="/lanes/report.js"></script>
+</body>
+</html>

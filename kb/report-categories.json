@@ -1,0 +1,75 @@
+{
+ "note": "Categories a citizen can report. 'safety' marks hazards that can injure someone, which raises priority.",
+ "categories": [
+  {
+   "id": "road_damage",
+   "name_en": "Road damage or pothole",
+   "name_bn": "রাস্তার ক্ষতি বা গর্ত",
+   "safety": false,
+   "base_priority": 3
+  },
+  {
+   "id": "streetlight",
+   "name_en": "Streetlight not working",
+   "name_bn": "রাস্তার বাতি নষ্ট",
+   "safety": false,
+   "base_priority": 2
+  },
+  {
+   "id": "garbage",
+   "name_en": "Uncollected garbage or dumping",
+   "name_bn": "জমে থাকা ময়লা বা ময়লা ফেলা",
+   "safety": false,
+   "base_priority": 3
+  },
+  {
+   "id": "drain_waterlogging",
+   "name_en": "Blocked drain or waterlogging",
+   "name_bn": "বন্ধ ড্রেন বা জলাবদ্ধতা",
+   "safety": false,
+   "base_priority": 3
+  },
+  {
+   "id": "water_supply",
+   "name_en": "Water leak or supply problem",
+   "name_bn": "পানির লাইনে লিক বা সরবরাহের সমস্যা",
+   "safety": false,
+   "base_priority": 3
+  },
+  {
+   "id": "open_manhole",
+   "name_en": "Open or broken manhole cover",
+   "name_bn": "খোলা বা ভাঙা ম্যানহোল ঢাকনা",
+   "safety": true,
+   "base_priority": 5
+  },
+  {
+   "id": "electrical_hazard",
+   "name_en": "Exposed wires or electrical hazard",
+   "name_bn": "খোলা তার বা বিদ্যুতের ঝুঁকি",
+   "safety": true,
+   "base_priority": 5
+  },
+  {
+   "id": "fallen_tree",
+   "name_en": "Fallen tree or dangerous branch",
+   "name_bn": "পড়ে যাওয়া গাছ বা বিপজ্জনক ডাল",
+   "safety": true,
+   "base_priority": 4
+  },
+  {
+   "id": "footpath_blocked",
+   "name_en": "Footpath blocked or encroached",
+   "name_bn": "ফুটপাত বন্ধ বা দখল",
+   "safety": false,
+   "base_priority": 2
+  },
+  {
+   "id": "other",
+   "name_en": "Something else",
+   "name_bn": "অন্য কিছু",
+   "safety": false,
+   "base_priority": 1
+  }
+ ]
+}

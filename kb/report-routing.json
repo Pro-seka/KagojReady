@@ -1,0 +1,254 @@
+{
+ "status": "DRAFT_UNVERIFIED",
+ "note": "Which office a report is addressed to, by kind of area. A draft from general knowledge of local-government responsibilities. It has NOT been confirmed by any authority, and real responsibility can differ by city (for example which utility serves a ward). KagojReady does not send tickets into any government system: the agency console and export are the hand-off. A named verifier must confirm this table before a pilot.",
+ "verified_by": null,
+ "area_types": [
+  {
+   "id": "city_corporation",
+   "name_en": "City Corporation",
+   "name_bn": "সিটি কর্পোরেশন"
+  },
+  {
+   "id": "pourashava",
+   "name_en": "Pourashava (municipality)",
+   "name_bn": "পৌরসভা"
+  },
+  {
+   "id": "union_parishad",
+   "name_en": "Union Parishad",
+   "name_bn": "ইউনিয়ন পরিষদ"
+  },
+  {
+   "id": "highway",
+   "name_en": "National highway",
+   "name_bn": "জাতীয় মহাসড়ক"
+  },
+  {
+   "id": "unknown",
+   "name_en": "I do not know",
+   "name_bn": "জানি না"
+  }
+ ],
+ "routes": {
+  "road_damage": {
+   "city_corporation": {
+    "body_en": "City Corporation",
+    "body_bn": "সিটি কর্পোরেশন"
+   },
+   "pourashava": {
+    "body_en": "Pourashava",
+    "body_bn": "পৌরসভা"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Roads and Highways Department",
+    "body_bn": "সড়ক ও জনপথ অধিদপ্তর"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "streetlight": {
+   "city_corporation": {
+    "body_en": "City Corporation",
+    "body_bn": "সিটি কর্পোরেশন"
+   },
+   "pourashava": {
+    "body_en": "Pourashava",
+    "body_bn": "পৌরসভা"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Roads and Highways Department",
+    "body_bn": "সড়ক ও জনপথ অধিদপ্তর"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "garbage": {
+   "city_corporation": {
+    "body_en": "City Corporation",
+    "body_bn": "সিটি কর্পোরেশন"
+   },
+   "pourashava": {
+    "body_en": "Pourashava",
+    "body_bn": "পৌরসভা"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "drain_waterlogging": {
+   "city_corporation": {
+    "body_en": "City Corporation",
+    "body_bn": "সিটি কর্পোরেশন"
+   },
+   "pourashava": {
+    "body_en": "Pourashava",
+    "body_bn": "পৌরসভা"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Roads and Highways Department",
+    "body_bn": "সড়ক ও জনপথ অধিদপ্তর"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "open_manhole": {
+   "city_corporation": {
+    "body_en": "City Corporation",
+    "body_bn": "সিটি কর্পোরেশন"
+   },
+   "pourashava": {
+    "body_en": "Pourashava",
+    "body_bn": "পৌরসভা"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Roads and Highways Department",
+    "body_bn": "সড়ক ও জনপথ অধিদপ্তর"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "fallen_tree": {
+   "city_corporation": {
+    "body_en": "City Corporation",
+    "body_bn": "সিটি কর্পোরেশন"
+   },
+   "pourashava": {
+    "body_en": "Pourashava",
+    "body_bn": "পৌরসভা"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Roads and Highways Department",
+    "body_bn": "সড়ক ও জনপথ অধিদপ্তর"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "footpath_blocked": {
+   "city_corporation": {
+    "body_en": "City Corporation",
+    "body_bn": "সিটি কর্পোরেশন"
+   },
+   "pourashava": {
+    "body_en": "Pourashava",
+    "body_bn": "পৌরসভা"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Roads and Highways Department",
+    "body_bn": "সড়ক ও জনপথ অধিদপ্তর"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "other": {
+   "city_corporation": {
+    "body_en": "City Corporation",
+    "body_bn": "সিটি কর্পোরেশন"
+   },
+   "pourashava": {
+    "body_en": "Pourashava",
+    "body_bn": "পৌরসভা"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Roads and Highways Department",
+    "body_bn": "সড়ক ও জনপথ অধিদপ্তর"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "water_supply": {
+   "city_corporation": {
+    "body_en": "Water supply authority (WASA or the local body)",
+    "body_bn": "পানি সরবরাহ কর্তৃপক্ষ (ওয়াসা বা স্থানীয় সংস্থা)"
+   },
+   "pourashava": {
+    "body_en": "Water supply authority (WASA or the local body)",
+    "body_bn": "পানি সরবরাহ কর্তৃপক্ষ (ওয়াসা বা স্থানীয় সংস্থা)"
+   },
+   "union_parishad": {
+    "body_en": "Union Parishad",
+    "body_bn": "ইউনিয়ন পরিষদ"
+   },
+   "highway": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   },
+   "unknown": {
+    "body_en": "Local government office (to be confirmed)",
+    "body_bn": "স্থানীয় সরকার অফিস (নিশ্চিত করা হবে)"
+   }
+  },
+  "electrical_hazard": {
+   "city_corporation": {
+    "body_en": "The electricity distribution company for this area",
+    "body_bn": "এই এলাকার বিদ্যুৎ বিতরণ কোম্পানি"
+   },
+   "pourashava": {
+    "body_en": "The electricity distribution company for this area",
+    "body_bn": "এই এলাকার বিদ্যুৎ বিতরণ কোম্পানি"
+   },
+   "union_parishad": {
+    "body_en": "The electricity distribution company for this area",
+    "body_bn": "এই এলাকার বিদ্যুৎ বিতরণ কোম্পানি"
+   },
+   "highway": {
+    "body_en": "The electricity distribution company for this area",
+    "body_bn": "এই এলাকার বিদ্যুৎ বিতরণ কোম্পানি"
+   },
+   "unknown": {
+    "body_en": "The electricity distribution company for this area",
+    "body_bn": "এই এলাকার বিদ্যুৎ বিতরণ কোম্পানি"
+   }
+  }
+ }
+}
